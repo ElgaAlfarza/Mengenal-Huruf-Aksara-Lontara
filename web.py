@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load Model
-MODEL_PATH = "Otaknya_compressed.h5"
+MODEL_PATH = "Otaknya.h5"
 model = load_model(MODEL_PATH)
 
 # Load Class Indices
